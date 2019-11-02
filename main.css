@@ -1,0 +1,7 @@
+.impress-supported #fallback-message {
+  display: none;
+}
+
+.impress-not-supported #impress {
+  display: none;
+}

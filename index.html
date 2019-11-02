@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="main.css" rel="stylesheet"/>
   </head>
-  <body>
-    <a href="#1">link 1</a>
-    <a href="#2">link 2</a>
-    <a href="#3">link 3</a>
-    <a href="#4">link 4</a>
+
+  <body class="impress-not-supported">
+    
+    <div id="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+
+    <div id="impress">
+      Here is my presentation.
+    </div>
+
+    <script src="impress.js"></script>
+    <script>impress().init();</script>
+    </script>
+
   </body>
+
 </html>
